@@ -1,19 +1,15 @@
 {
-  "name": "freecodecamp-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sidouxie/freecodecamp-backend.git"
-  },
-  "author": "sidouxie",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sidouxie/freecodecamp-backend/issues"
-  },
-  "homepage": "https://github.com/sidouxie/freecodecamp-backend#readme"
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "sidouxie",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sidouxie/freecodecamp-backend.git"
+	}
 }
