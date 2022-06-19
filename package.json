@@ -1,15 +1,18 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"author": "sidouxie",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sidouxie/freecodecamp-backend.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "author": "sidouxie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidouxie/freecodecamp-backend.git"
+  }
 }
